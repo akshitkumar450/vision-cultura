@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0 15px;
+  font-size: 1rem;
+}
+
 .logo {
   width: 109px;
   height: 76px;
@@ -17,6 +22,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .header-primary-img {
@@ -72,6 +78,8 @@
 
 .img-container {
   position: relative;
+  width: 460px;
+  height: 326px;
 }
 
 .trust-logo {
