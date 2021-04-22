@@ -6,25 +6,76 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  /* 1rem=10px  10/16px=62.5% */
+}
+
 body {
   font-weight: 300;
   line-height: 1.6;
 }
 
 .logo {
-  width: 109px;
-  height: 76px;
+  width: 10.9rem;
+  height: 7.6rem;
   background: url("img/Image 1.png");
   opacity: 1;
 }
 
+.navbar-nav {
+  font-size: 2rem;
+}
+
+.navbar-nav + button {
+  font-size: 2rem;
+}
+
 .header {
-  padding: 80px 0px;
+  padding: 8rem 0px;
   background-image: url("../images/Mask\ Group\ 1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.header_heading-1 {
+  color: rgb(250, 183, 0);
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.header_heading-2 {
+  font-size: 6rem;
+  color: rgba(14, 139, 56, 1);
+  font-weight: bold;
+}
+
+.header_heading-3 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.header_heading-4 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.header_btn {
+  color: #fff;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  font-size: 2rem;
+  background-color: rgb(250, 183, 0);
+  border-radius: 0.5rem;
+}
+
+.header_btn:hover {
+  background-color: rgb(207, 156, 14);
+  text-decoration: none;
+  color: #fff;
 }
 
 .header-primary-img {
@@ -33,50 +84,38 @@ body {
   position: relative;
 }
 
-.heading-2 {
-  font-size: 60px;
-}
-
-.heading-3 {
-  font-size: 50px;
-}
-
-.heading-4 {
-  font-size: 30px;
-}
-
 .leaf-1 {
   position: absolute;
-  top: 20px;
-  left: 60px;
+  top: 2rem;
+  left: 6rem;
 }
 
 .leaf-2 {
   position: absolute;
-  right: 145px;
-  bottom: 10px;
+  right: 14.5rem;
+  bottom: 1rem;
 }
 
 .leaf-3 {
   position: absolute;
-  right: 120px;
-  top: 30px;
+  right: 12rem;
+  top: 3rem;
 }
 
 .leaf-4 {
   position: absolute;
-  right: 20px;
-  bottom: 210px;
+  right: 2rem;
+  bottom: 21rem;
 }
 
 .bigleaf-1 {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .section-1 {
-  padding: 100px 0px;
+  padding: 10rem 0;
   background-image: url("../images//Mask\ Group\ 3.png");
   background-repeat: no-repeat;
   background-position: top right;
@@ -84,92 +123,125 @@ body {
 
 .img-container {
   position: relative;
-  width: 460px;
-  height: 326px;
+  width: 46rem;
+  height: 32.6rem;
 }
 
 .trust-logo {
   position: absolute;
-  top: -25px;
-  left: 90px;
-  padding: 5px;
-  border-radius: 5px;
+  top: -2.5rem;
+  left: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   background-color: green;
 }
 
 .biological-box {
+  font-size: 1.6rem;
   position: absolute;
-  top: -16px;
-  left: 8px;
+  top: -1.6rem;
+  left: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: 0.5rem;
   background-color: #fff;
 }
 
 .trust {
   position: absolute;
-  bottom: -45px;
-  left: -13px;
+  bottom: -4.5rem;
+  left: -1.3rem;
   background-color: hsla(44, 100%, 49%, 1);
   display: inline-block;
-  padding-right: 5px;
-  border-radius: 5px;
+  padding-right: 0.5rem;
+  border-radius: 0.5rem;
   color: #fff;
+  font-size: 1.6rem;
 }
 
 .leaf {
   background-color: #fff;
   position: absolute;
-  right: 10px;
-  right: 60px;
-  bottom: -45px;
-  padding: 10px;
-  border-radius: 5px;
+  right: 1rem;
+  right: 6rem;
+  bottom: -4.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.icon-container {
+  margin-right: 8rem;
+}
+
+.treebo {
+  color: rgba(14, 139, 56, 1);
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.treebo_text {
+  font-size: 1.6rem;
 }
 
 .bg-icons {
   background-color: rgb(250, 183, 0);
-  padding: 10px;
-  height: 60px;
-  width: 60px;
-  border-radius: 50px;
-}
-
-.icon-container {
-  margin-right: 80px;
+  padding: 1rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 5rem;
 }
 
 .icon-font {
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 .section-2 {
-  padding: 50px 0;
+  padding: 5rem 0;
 }
 
 .conventional-bad {
-  font-size: 25px;
+  font-size: 3rem;
   color: rgba(14, 139, 56, 1);
+  font-weight: bold;
+}
+
+.conventional-bad + div {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.view {
+  font-size: 2rem;
+  padding: 0.5rem 1.6rem;
+  border: 2px solid rgba(14, 139, 56, 1);
+  color: #000;
+}
+
+.view:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 .section-3 {
-  padding: 100px 0px;
+  padding: 10rem 0px;
 }
 
 .list-heading {
   color: rgba(14, 139, 56, 1);
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .list-heading + ul {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .section-4 {
-  padding: 100px 0px;
+  padding: 10rem 0px;
 }
 
 .section-4 h1 {
@@ -177,15 +249,21 @@ body {
   text-align: center;
 }
 
+.grow {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .vegies {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 5px solid rgb(250, 183, 0);
-  margin-right: 25px;
+  border-bottom: 0.5rem solid rgb(250, 183, 0);
+  margin-right: 2.5rem;
 }
 
 .vegies h6 {
-  margin: 15px 0;
+  margin: 1.5rem 0;
+  font-size: 2rem;
 }
